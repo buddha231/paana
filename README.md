@@ -3,6 +3,7 @@ A simple fullstack test app
 
 ## Backend
 ### Project Setup
+Navigate to backend directory before running these commands
 ```bash
 python -m venv .venv
 source .venv/bin/activate
@@ -16,6 +17,7 @@ python manage.py runserver 8000
 ```
 
 ## Frontend
+Navigate to frontend directory before running these commands
 ```bash
 npm install
 npm start 
