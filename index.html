@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* ... (previous styles) ... */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            width: 800px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .form-container {
+            flex: 2;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .salary-container {
+            flex: 1;
+            background-color: #e0e0e0;
+            padding: 20px;
+            margin-right: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .qualification-container {
+            flex: 1;
+            background-color: #e0e0e0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .salary-container ul,
+        .qualification-container ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .salary-container li,
+        .qualification-container li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .edit-delete-buttons {
+            display: flex;
+            gap: 5px;
+        }
+    </style>
+    <title>Employee Details</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="salary-container">
+            <h2>Salaries</h2>
+            <ul>
+                <li>
+                    $50,000
+                    <div class="edit-delete-buttons">
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </div>
+                </li>
+                <li>
+                    $60,000
+                    <div class="edit-delete-buttons">
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </div>
+                </li>
+                <!-- Add more salary entries -->
+            </ul>
+        </div>
+        <div class="form-container">
+            <h2>Employee Details Form</h2>
+            <form>
+                <!-- Add form fields for employee details -->
+            </form>
+        </div>
+        <div class="qualification-container">
+            <h2>Qualifications</h2>
+            <ul>
+                <li>
+                    Bachelor's Degree
+                    <div class="edit-delete-buttons">
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </div>
+                </li>
+                <li>
+                    Master's Degree
+                    <div class="edit-delete-buttons">
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </div>
+                </li>
+                <!-- Add more qualification entries -->
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
