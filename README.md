@@ -2,6 +2,13 @@
 A simple fullstack test app
 
 ## Backend
+### Project Setup
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+### Starting the development server
 ```bash
 python manage.py makemigrations
 python manage.py migrate
